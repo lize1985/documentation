@@ -1,6 +1,6 @@
 # Gandalf Spatial and Temporal Algorithm
 
-# Overview {#overview}
+## Overview
 
 In the cloud infrastructure, it is often the case that many core components are updated simultaneously and independently. As the cloud infrastructure also has a variety of configurations \(both in hardware and software\), the initial impact of a bad rollout may typically be hidden as the entire cloud seems healthy, yet several specific configurations may be very severely impacted. In a traditional system, there is already a wide impact radius once such issues are detected, often after days of rollout. The Safe Deployment algorithm is an algorithm aims to
 
@@ -26,21 +26,19 @@ This is achieved through two processes:
 
    5. Binary decision/supporting evidence
 
-      ![](/assets/GandalfModel.png)    
+      ![](/assets/GandalfModel.png)
 
 **                                                                                          Figure 1 Gandalf Model**
 
-
-
-# Ensemble voting {#ensemble-voting}
+## Ensemble voting
 
 In the ensemble voting step, we are trying to identify candidates attributing components for each fault signature. Each fault votes components deployed in the same nodes in a time window and Aggregate the votes and get candidate attributing components for each fault
 
-![](/assets/temporal.png)      
+![](/assets/temporal.png)
 
 **                                                                                         Figure 2. Ensemble voting**
 
-# Temporal Correlation {#temporal-correlation}
+## Temporal Correlation
 
 Filter out the ambient noise in last 72 hours and calculate a temporal correlation score
 
@@ -48,15 +46,13 @@ Filter out the ambient noise in last 72 hours and calculate a temporal correlati
 
 w is the weight of the time segment; P is number of fault nodes after deployment and b is the number of fault nodes before deployment Then we identify the suspicious components by associatingthe faults to the component with the greatest temporal correlation![](/assets/ranking.PNG "ranking.PNG")​
 
-![](/assets/spatial.png) 
+![](/assets/spatial.png)
 
 **                                                                                              Figure 3. Temporal Correlation**
 
-# Spatial Correlation {#spatial-correlation}
+## Spatial Correlation
 
-![](/assets/spatial2.png)     
-
-                                                                                         **Figure 4. Spatial Correlation**
+## ![](/assets/spatial2.png)
 
 Given a rollout component i at time t
 
@@ -70,11 +66,9 @@ P\(t│i,j\)=N\(i,j\)/F\(j\)
 
 Filter out faults if P\(t\|i,j\) that is less than a threshold
 
-# Exponential Time Decaying {#exponential-time-decaying}
+## Exponential Time Decaying
 
-![](/assets/expoentialdecay.png)
-
-                                                                                          **Figure 5 Exponential Time Decaying**
+## ![](/assets/expoentialdecay.png)
 
 In this step, gandalf will gradually forget the blaming on the old components exponentially and focus on new component Decay ratio are scaled to \[a, b\]
 
