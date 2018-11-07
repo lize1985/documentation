@@ -8,21 +8,21 @@ Figure 1 below demonstrated 3 scenarios that you will interact with Gandalf
 
 * You want to proactively monitoring Rollout in Cross Cluster Level
 
-![](/assets/GandalfUseSenario.PNG)
+![](/assets/GandalfUseSenario.PNG)** **
 
-**                                                                                              Figure 1 User Scenario**
+                                                                                                **Figure 1 User Scenario**
 
 # You Want to re-actively receive Email/ICM alerts {#you-want-to-re-actively-receive-email-icm-alerts}
 
 After you onboarding with Gandalf, once Gandalf detects a spike of faults that correlated with the rollout, you will received an ICM/Emails that similar to the figures below. You can click on the Hyper links to navigate to the fault details
 
-![](/assets/EmailAlert .PNG)
+![](/assets/EmailAlert .PNG)         
 
-Figure 2. Example of Email Alert
+                                                                                        **Figure 2. Example of Email Alert**
 
 ![](/assets/ICMAlert.PNG)
 
-Figure 3. Example of ICM Alerts
+                                                                                         **Figure 3. Example of ICM Alerts**
 
 # You Want to Proactively Monitoring Rollout KPI In Region/Cluster Level {#you-want-to-proactively-monitoring-rollout-kpi-in-region-cluster-level}
 
@@ -60,7 +60,7 @@ By clicking on the hyper links of the Cluster Name in**Figure 4**, you can see a
 
 ![](/assets/FaultDetails.PNG)
 
-Figure 6. Check Fault details and RCAs
+                                                                                 **Figure 6. Check Fault details and RCAs**
 
 # You want to proactively monitor rollout in cross cluster level {#you-want-to-proactively-monitor-rollout-in-cross-cluster-level}
 
@@ -82,9 +82,9 @@ Figure 6. Check Fault details and RCAs
 
       * New fault![](/assets/NewFault.PNG "NewFault.PNG"): The fault does not seen in the last 30 days. The new fault will not cause a no-go, but just FYI
 
-![](/assets/DecisionDashboard.PNG)
+![](/assets/DecisionDashboard.PNG) 
 
-Figure 7. Decision Dashboard
+                                                                                         **Figure 7. Decision Dashboard**
 
 ## Rollout Dashboard \(Batch\) {#rollout-dashboard-batch}
 
@@ -120,7 +120,7 @@ Figure 7. Decision Dashboard
 
 ![](/assets/BatchRollout.PNG)
 
-Rollout Page for the batch mode
+                                                                              **Figure 8. Rollout Page for the batch mode**
 
 ## Rollout Page \(NRT\) \(Streaming\) {#rollout-page-nrt-streaming}
 
@@ -140,7 +140,7 @@ Rollout Page for the batch mode
 
 ![](/assets/NRTRollout.PNG)
 
-NRT rollout page
+                                                                                              **Figure 9 NRT rollout page**
 
 By double clicking on the rows in the "Faults over time in swimlane" table, you can see the fault details
 
@@ -184,7 +184,9 @@ Fault details for NRT
 
     * Here the are components that is affected by the signature
 
-![](/assets/signatures.png)
+![](/assets/signatures.png)     
+
+                                                                                                   **Figure 10  Signature**
 
 ## Cluster Utilization During Rollout {#cluster-utilization-during-rollout}
 
