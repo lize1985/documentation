@@ -1,7 +1,5 @@
 # How to Use Gandalf
 
-
-
 Figure 1 below demonstrated 3 scenarios that you will interact with Gandalf
 
 * You want to re-actively receive Email/ICM alerts
@@ -10,7 +8,7 @@ Figure 1 below demonstrated 3 scenarios that you will interact with Gandalf
 
 * You want to proactively monitoring Rollout in Cross Cluster Level
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJZsnkigrCjlOhHlu6R%2F-LQfD-IChe0_QPJ0Py4x%2F-LQflREqUiHqSXb-Kb_x%2FGandalfUseSenario.PNG?alt=media&token=25da9432-2e95-4531-bb47-8a9015e0915a)
+![](/assets/GandalfUseSenario.PNG)
 
 **                                                                                              Figure 1 User Scenario**
 
@@ -18,11 +16,11 @@ Figure 1 below demonstrated 3 scenarios that you will interact with Gandalf
 
 After you onboarding with Gandalf, once Gandalf detects a spike of faults that correlated with the rollout, you will received an ICM/Emails that similar to the figures below. You can click on the Hyper links to navigate to the fault details
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJZsnkigrCjlOhHlu6R%2F-LQfqB1e3a8Bg5l2dwLb%2F-LQfw7D_XI4E4Py5j5Ez%2FEmailAlert.PNG?alt=media&token=a7b53572-c85c-46b0-a9bd-ae2a14ec9d96)
+![](/assets/EmailAlert .PNG)
 
 Figure 2. Example of Email Alert
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJZsnkigrCjlOhHlu6R%2F-LQfqB1e3a8Bg5l2dwLb%2F-LQfxLLTcxHET8_ndObR%2FICMAlert.PNG?alt=media&token=2ce11208-4fad-4168-bb5a-b4598d1ab905)
+![](/assets/ICMAlert.PNG)
 
 Figure 3. Example of ICM Alerts
 
@@ -52,15 +50,15 @@ By clicking on the hyper links of the Cluster Name in**Figure 4**, you can see a
 
 * You can double click on the row in the bottom table to check the fault details and RCA as shown in**Figure 6**
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJZsnkigrCjlOhHlu6R%2F-LQfqB1e3a8Bg5l2dwLb%2F-LQfz6J4pt7pJj0BSmFH%2FClusterLevelRollout.PNG?alt=media&token=ebcc2e25-e78e-4e72-8c41-0bf58efbb2b3)
+![](/assets/ClusterLevelRollout.PNG)
 
 **                                                                                         FIgure 4. Rollout KPI Dashboard**
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJZsnkigrCjlOhHlu6R%2F-LQfqB1e3a8Bg5l2dwLb%2F-LQg-dG0eCR2d-H6RwLY%2FClusterFaultDetails.PNG?alt=media&token=c881cf4f-776b-4813-af46-1b34bf5bf631)
+![](/assets/ClusterFaultDetails.PNG)
 
 **                                                                                         Figure 5. Cluster level faults**
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJZsnkigrCjlOhHlu6R%2F-LQfqB1e3a8Bg5l2dwLb%2F-LQg0__aQdjfu6PNg3q_%2FFaultDetails.PNG?alt=media&token=68d0e5f2-bc16-47ee-b0f8-bfd0511bc3e3)
+![](/assets/FaultDetails.PNG)
 
 Figure 6. Check Fault details and RCAs
 
@@ -76,15 +74,15 @@ Figure 6. Check Fault details and RCAs
 
     * **Type of Decisions:**
 
-      * Investigate![](https://microsoft.sharepoint.com/teams/Gandalf46/SiteAssets/Gandalf%20Safe%20Deployment/Home/warning.PNG "warning.PNG"): The faults are not significant. It worth the developers to investigate in it
+      * Investigate![](/assets/warning.PNG "warning.PNG"): The faults are not significant. It worth the developers to investigate in it
 
-      * Good![](https://microsoft.sharepoint.com/teams/Gandalf46/SiteAssets/Gandalf%20Safe%20Deployment/Home/Good.PNG "Good.PNG"): The build is ok
+      * Good![](/assets/Good.PNG "Good.PNG"): The build is ok
 
-      * No-Go![](https://microsoft.sharepoint.com/teams/Gandalf46/SiteAssets/Gandalf%20Safe%20Deployment/Home/Capture.PNG "Capture.PNG"): The build fails. The rollout should be stopped
+      * No-Go![](/assets/Nogo.PNG "Capture.PNG"): The build fails. The rollout should be stopped
 
-      * New fault![](https://microsoft.sharepoint.com/teams/Gandalf46/SiteAssets/Gandalf%20Safe%20Deployment/Home/NewFault.PNG "NewFault.PNG"): The fault does not seen in the last 30 days. The new fault will not cause a no-go, but just FYI
+      * New fault![](/assets/NewFault.PNG "NewFault.PNG"): The fault does not seen in the last 30 days. The new fault will not cause a no-go, but just FYI
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJZsnkigrCjlOhHlu6R%2F-LQfqB1e3a8Bg5l2dwLb%2F-LQgXH6435YwETNRDj3H%2FDecisionDashboard.PNG?alt=media&token=8a691726-d03f-45eb-b0ac-886a61338934)
+![](/assets/DecisionDashboard.PNG)
 
 Figure 7. Decision Dashboard
 
@@ -120,7 +118,7 @@ Figure 7. Decision Dashboard
 
     * This table lists all the issues related to the rollout
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJZsnkigrCjlOhHlu6R%2F-LQfqB1e3a8Bg5l2dwLb%2F-LQg_MkJbAisD_uPVxpB%2FBatchRollout.PNG?alt=media&token=f0d10e83-6ff0-46de-8bed-998bd47c4aa1)
+![](/assets/BatchRollout.PNG)
 
 Rollout Page for the batch mode
 
@@ -140,13 +138,13 @@ Rollout Page for the batch mode
 
   * **Fault Steaming Dashboard**
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJZsnkigrCjlOhHlu6R%2F-LQfqB1e3a8Bg5l2dwLb%2F-LQgcdv7Syb8xJvl6P7l%2FNRTRollout.PNG?alt=media&token=1ea74171-f653-4d2a-8199-59e9dea90428)
+![](/assets/NRTRollout.PNG)
 
 NRT rollout page
 
 By double clicking on the rows in the "Faults over time in swimlane" table, you can see the fault details
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJZsnkigrCjlOhHlu6R%2F-LQfqB1e3a8Bg5l2dwLb%2F-LQgdTwPip3nU4lzlg5h%2FNRT%20Fault%20Details.PNG?alt=media&token=0ee707b5-fda9-42a4-bc51-ed51a3727d58)
+![](/assets/FaultDetails.PNG)
 
 Fault details for NRT
 
@@ -186,7 +184,7 @@ Fault details for NRT
 
     * Here the are components that is affected by the signature
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJZsnkigrCjlOhHlu6R%2F-LQfqB1e3a8Bg5l2dwLb%2F-LQgeBZw47axaYNij1yU%2Fimage.png?alt=media&token=c5b8ee42-ebc6-4a97-a130-6d1d85a53546)
+![](/assets/signatures.png)
 
 ## Cluster Utilization During Rollout {#cluster-utilization-during-rollout}
 
