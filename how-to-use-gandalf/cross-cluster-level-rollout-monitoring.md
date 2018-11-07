@@ -1,4 +1,4 @@
-# You want to proactively monitor rollout in cross cluster level {#you-want-to-proactively-monitor-rollout-in-cross-cluster-level}
+# Proactively monitor rollout in cross cluster level {#you-want-to-proactively-monitor-rollout-in-cross-cluster-level}
 
 ## Decision Dashboard {#decision-dashboard}
 

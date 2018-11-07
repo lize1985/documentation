@@ -1,4 +1,4 @@
-# You Want to Proactively Monitoring Rollout KPI In Region/Cluster Level {#you-want-to-proactively-monitoring-rollout-kpi-in-region-cluster-level}
+# Proactively Monitoring Rollout KPI In Region/Cluster Level {#you-want-to-proactively-monitoring-rollout-kpi-in-region-cluster-level}
 
 ## Cluster/Region Level KPI monitoring {#cluster-region-level-kpi-monitoring}
 
