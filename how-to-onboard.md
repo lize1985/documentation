@@ -1,6 +1,6 @@
 # How to Onboard
 
-# Current Supporting Components {#current-supporting-components}
+## Current Supporting Components
 
 1. AgentPackage
 
@@ -42,7 +42,7 @@
 
 20. CredentialsManagementHostPlugin
 
-# Current Monitoring Faults {#current-monitoring-faults}
+## Current Monitoring Faults
 
 * NodeFault
 
@@ -56,11 +56,11 @@
 
 * Vmdowntime
 
-# How to Onboard {#how-to-onboard}
+## How to Onboard
 
 Onboarding to Gandalf is extremely easy. You only need to provide us 2 dataset. One is mandatory and the other one is optimal. By default, gandalf will monitor 8 fault sources and the fault signals is expanding. The faults are presented in the section above
 
-## \(1\) Events that need to be changed \(required\) {#1-events-that-need-to-be-changed-required}
+### \(1\) Events that need to be changed \(required\)
 
 * EventTime
 
@@ -74,7 +74,7 @@ Onboarding to Gandalf is extremely easy. You only need to provide us 2 dataset. 
 
 * AdditionalEventInfo
 
-## \(2\) Faults that need to be monitored and correlated \(Optional\) {#2-faults-that-need-to-be-monitored-and-correlated-optional}
+## \(2\) Faults that need to be monitored and correlated \(Optional\)
 
 * Faulttime
 
