@@ -2,7 +2,7 @@
 
 Figure 1 below demonstrated 3 scenarios that you will interact with Gandalf
 
-* You want to re-actively receive Email/ICM alerts
+* You want to reactively receive Email/ICM alerts
 
 * You want to proactively monitoring Rollout KPI in Region/Cluster Level
 
@@ -14,61 +14,9 @@ Figure 1 below demonstrated 3 scenarios that you will interact with Gandalf
                                                                                             **Figure 1 User Scenario**
 ```
 
-# You Want to re-actively receive Email/ICM alerts {#you-want-to-re-actively-receive-email-icm-alerts}
+#  {#you-want-to-re-actively-receive-email-icm-alerts}
 
-After you onboarding with Gandalf, once Gandalf detects a spike of faults that correlated with the rollout, you will received an ICM/Emails that similar to the figures below. You can click on the Hyper links to navigate to the fault details
-
-![](/assets/EmailAlert .PNG)
-
-```
-                                                                                    **Figure 2. Example of Email Alert**
-```
-
-![](/assets/ICMAlert.PNG)
-
-```
-                                                                                     **Figure 3. Example of ICM Alerts**
-```
-
-# You Want to Proactively Monitoring Rollout KPI In Region/Cluster Level {#you-want-to-proactively-monitoring-rollout-kpi-in-region-cluster-level}
-
-## Cluster/Region Level KPI monitoring {#cluster-region-level-kpi-monitoring}
-
-* You need go to link[https://gandalfprod.corp.microsoft.com/ad/capacity/rolloutprogress.html](http://gandalfprod.corp.microsoft.com/ad/capacity/rolloutprogress.html)​
-
-* Select appropriate Component, Version, Cluster type information
-
-* The KPI dashboard currently support monitoring on the following KPI
-
-  * Rollout coverage
-
-  * Availability related metrics
-
-  * Capacity related metrics
-
-  * Cluster level Failures
-
-## Cluster fault details {#cluster-fault-details}
-
-By clicking on the hyper links of the Cluster Name in**Figure 4**, you can see all the faults that correlated with the deployment and happened on the clusters as shown in**Figure 5**below
-
-* You can double click on the row in the table to check the trend of the faults
-
-* You can double click on the row in the bottom table to check the fault details and RCA as shown in**Figure 6**
-
-![](/assets/ClusterLevelRollout.PNG)
-
-**                                                                                         FIgure 4. Rollout KPI Dashboard**
-
-![](/assets/ClusterFaultDetails.PNG)
-
-**                                                                                         Figure 5. Cluster level faults**
-
-![](/assets/FaultDetails.PNG)
-
-```
-                                                                             **Figure 6. Check Fault details and RCAs**
-```
+#  {#you-want-to-proactively-monitoring-rollout-kpi-in-region-cluster-level}
 
 # You want to proactively monitor rollout in cross cluster level {#you-want-to-proactively-monitor-rollout-in-cross-cluster-level}
 
