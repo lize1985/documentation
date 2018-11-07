@@ -1,8 +1,8 @@
 # Summary
 
-* [Introduction](/README.md)
-* [How to Use Gandalf](//chapter1.md)
-* [Gandalf Spatial and Temporal Algorithms](///how-to-use-gandalf.md)
+* [Introduction](/Introducation.md)
+* [How to Use Gandalf](/how-to-use-gandalf.md)
+* [Gandalf Spatial and Temporal Algorithms](/spatial-temporal-correlation.md)
 * [Gandalf Architecture](/gandalf-architecture.md)
 * [How to Contribute](how-to-contribute.md)
 * [How to Onboard](how-to-onboard.md)
