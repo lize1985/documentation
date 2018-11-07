@@ -14,27 +14,25 @@ This is achieved through two processes:
 
 2. A decision process, which assess the quality of a rollout by looing at the overall customer impact and generate go/no-go decision for a rollout.
 
-_**Figure 1**_shows the basic workflow of the gandalf safe deployment model​. The gandalf model consists of 5 steps.
+   **Figure 1 **shows the basic workflow of the gandalf safe deployment model​. The gandalf model consists of 5 steps.
 
-* Ensemble Voting
+3. Ensemble Voting
 
-* Temporal Correlation
+4. Temporal Correlation
 
-* Spatial Correlation
+5. Spatial Correlation
 
-* Exponential decaying
+6. Exponential decaying
 
-* binary decision/supporting evidence
+7. Binary decision/supporting evidence
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJZsnkigrCjlOhHlu6R%2F-LQgej_ehJOzzXzelVNa%2F-LQgfO0NVNRj6a_W33Pe%2Fimage.png?alt=media&token=f6338257-e3cf-44f2-bae3-1a769e25b19b)
-
-Figure 1 Gandalf Model for Safe Deployment
+   ![](/assets/GandalfModel.png)  
 
 # Ensemble voting {#ensemble-voting}
 
 In the ensemble voting step, we are trying to identify candidates attributing components for each fault signature. Each fault votes components deployed in the same nodes in a time window and Aggregate the votes and get candidate attributing components for each fault
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJZsnkigrCjlOhHlu6R%2F-LQgej_ehJOzzXzelVNa%2F-LQgg4F-InFI-h6ogIWV%2Fimage.png?alt=media&token=cbc8cc7d-bb97-4b4a-bc7a-8fe930747f95)
+![](/assets/temporal.png)
 
 Ensemble voting
 
@@ -42,15 +40,17 @@ Ensemble voting
 
 Filter out the ambient noise in last 72 hours and calculate a temporal correlation score
 
-![](https://microsoft.sharepoint.com/teams/Gandalf46/SiteAssets/Gandalf%20Safe%20Deployment/Home/CorrelationFunction.PNG "CorrelationFunction.PNG")w is the weight of the time segment; P is number of fault nodes after deployment and b is the number of fault nodes before deployment Then we identify the suspicious components by associatingthe faults to the component with the greatest temporal correlation![](https://microsoft.sharepoint.com/teams/Gandalf46/SiteAssets/Gandalf%20Safe%20Deployment/Home/ranking.PNG "ranking.PNG")​
+![](/assets/CorrelationFunction.PNG "CorrelationFunction.PNG")
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJZsnkigrCjlOhHlu6R%2F-LQgej_ehJOzzXzelVNa%2F-LQggFhSr9HgTnAFQikU%2Fimage.png?alt=media&token=592bd746-f60e-4c3d-aa66-d205bc199651)
+w is the weight of the time segment; P is number of fault nodes after deployment and b is the number of fault nodes before deployment Then we identify the suspicious components by associatingthe faults to the component with the greatest temporal correlation![](/assets/ranking.PNG "ranking.PNG")​
+
+![](/assets/spatial.png)
 
 Temporal Correlation
 
 # Spatial Correlation {#spatial-correlation}
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJZsnkigrCjlOhHlu6R%2F-LQgej_ehJOzzXzelVNa%2F-LQggTfiuL9YDwfl170O%2Fimage.png?alt=media&token=1f98f1b8-daa4-4837-b416-d7f41fd7c52e)
+![](/assets/spatial2.png)
 
 Spatial Correlation
 
@@ -68,15 +68,17 @@ Filter out faults if P\(t\|i,j\) that is less than a threshold
 
 # Exponential Time Decaying {#exponential-time-decaying}
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJZsnkigrCjlOhHlu6R%2F-LQgej_ehJOzzXzelVNa%2F-LQggncrI02o7IG6Qajp%2Fimage.png?alt=media&token=29d140df-900d-4f94-b2c1-b40abf2d7456)
+![](/assets/expoentialdecay.png)
 
 Exponential Time Decaying
 
-In this step, gandalf will gradually forget the blaming on the old components exponentially and focus on new component Decay ratio are scaled to \[a, b\]![](https://microsoft.sharepoint.com/teams/Gandalf46/SiteAssets/Gandalf%20Safe%20Deployment/Home/delaying.PNG "delaying.PNG")​
+In this step, gandalf will gradually forget the blaming on the old components exponentially and focus on new component Decay ratio are scaled to \[a, b\]
+
+![](/assets/delaying.PNG "delaying.PNG")​
 
 # Binary Decision {#binary-decision}
 
 In the binary decision step, we evaluate the impact of the rollout based on the features such as \# of impacted nodes, \# of impacted clusters, fault sources, blaming components and \# of impacted nodes per cluster.
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJZsnkigrCjlOhHlu6R%2F-LQgej_ehJOzzXzelVNa%2F-LQggyvRQ-gihAwGEn0H%2Fimage.png?alt=media&token=1f53c61a-697a-40d9-a8ef-100b8d8431e7)
+![](/assets/BinaryDecision.png)
 
