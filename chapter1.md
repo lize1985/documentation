@@ -190,5 +190,5 @@ Fault details for NRT
 
 During the cluster rollout, we can also monitoring the cluster utilization and peek some insights for the capacity related information in the cluster
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJZsnkigrCjlOhHlu6R%2F-LQfqB1e3a8Bg5l2dwLb%2F-LQgeIfPKJB1di2H50lV%2Fimage.png?alt=media&token=8b364259-c7fd-4624-852a-4930bb2e387d)
+![](/assets/cluster.png)
 
