@@ -10,7 +10,7 @@ Gandalf is chartered to provide an OFFLINE, INDEPEDENT Global Monitoring to ensu
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJZsnkigrCjlOhHlu6R%2F-LQfCcNu22zJfSK7eT-t%2F-LQfCjfMwgPzrPVoqZGd%2Flayeredworkflow.png?alt=media&token=3fde1e25-6251-481c-a9f8-6c8021eb8e9b)
 
-Safe Deployment Hierarchy
+                                                                                         **Figure 1. Safe Deployment Hierarchy**
 
 _Gandalf Safe Deployment data service is a reliable and intelligent web service that provides component deployment safe guard by_
 
