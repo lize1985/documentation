@@ -2,7 +2,7 @@
 
 ## Cluster/Region Level KPI monitoring {#cluster-region-level-kpi-monitoring}
 
-* You need go to link[https://gandalfprod.corp.microsoft.com/ad/capacity/rolloutprogress.html](http://gandalfprod.corp.microsoft.com/ad/capacity/rolloutprogress.html)​
+* You need go to [https://gandalfprod.corp.microsoft.com/ad/capacity/rolloutprogress.html](http://gandalfprod.corp.microsoft.com/ad/capacity/rolloutprogress.html)​
 
 * Select appropriate Component, Version, Cluster type information
 
@@ -32,11 +32,7 @@ By clicking on the hyper links of the Cluster Name in**Figure 4**, you can see a
 
 **                                                                                         Figure 5. Cluster level faults**
 
-![](/assets/FaultDetails.PNG)
+![](/assets/FaultDetails.PNG)                      
 
-```
-                                                                             **Figure 6. Check Fault details and RCAs**
-```
-
-
+**                                                                                         Figure 6. Check Fault details and RCAs**
 

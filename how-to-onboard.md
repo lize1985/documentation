@@ -74,7 +74,7 @@ Onboarding to Gandalf is extremely easy. You only need to provide us 2 dataset. 
 
 * AdditionalEventInfo
 
-## \(2\) Faults that need to be monitored and correlated \(Optional\)
+### \(2\) Faults that need to be monitored and correlated \(Optional\)
 
 * Faulttime
 
