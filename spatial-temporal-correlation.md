@@ -14,19 +14,19 @@ This is achieved through two processes:
 
 2. A decision process, which assess the quality of a rollout by looing at the overall customer impact and generate go/no-go decision for a rollout.
 
-   **Figure 1 **shows the basic workflow of the gandalf safe deployment model​. The gandalf model consists of 5 steps.
+**Figure 1 **shows the basic workflow of the gandalf safe deployment model​. The gandalf model consists of 5 steps.
 
-   1. Ensemble Voting
+1. Ensemble Voting
 
-   2. Temporal Correlation
+2. Temporal Correlation
 
-   3. Spatial Correlation
+3. Spatial Correlation
 
-   4. Exponential decaying
+4. Exponential decaying
 
-   5. Binary decision/supporting evidence
+5. Binary decision/supporting evidence
 
-      ![](/assets/GandalfModel.png)
+   ![](/assets/GandalfModel.png)
 
 **                                                                                          Figure 1 Gandalf Model**
 
@@ -79,6 +79,4 @@ In this step, gandalf will gradually forget the blaming on the old components ex
 In the binary decision step, we evaluate the impact of the rollout based on the features such as \# of impacted nodes, \# of impacted clusters, fault sources, blaming components and \# of impacted nodes per cluster.
 
 ![](/assets/BinaryDecision.png)
-
-
 
