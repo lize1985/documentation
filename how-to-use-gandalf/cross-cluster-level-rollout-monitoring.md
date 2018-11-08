@@ -18,11 +18,9 @@
 
       * New fault![](/assets/NewFault.PNG "NewFault.PNG"): The fault does not seen in the last 30 days. The new fault will not cause a no-go, but just FYI
 
-![](/assets/DecisionDashboard.PNG)
+![](/assets/DecisionDashboard.PNG)              
 
-```
-                                                                                     **Figure 7. Decision Dashboard**
-```
+**                                                                                           Figure 7. Decision Dashboard**
 
 ## Rollout Dashboard \(Batch\) {#rollout-dashboard-batch}
 
@@ -56,11 +54,11 @@
 
     * This table lists all the issues related to the rollout
 
-![](/assets/BatchRollout.PNG)
+![](/assets/BatchRollout.PNG) 
 
-```
-                                                                          **Figure 8. Rollout Page for the batch mode**
-```
+**                                                                                 Figure 8. Rollout Page for the batch mode**
+
+
 
 ## Rollout Page \(NRT\) \(Streaming\) {#rollout-page-nrt-streaming}
 
@@ -78,11 +76,9 @@
 
   * **Fault Steaming Dashboard**
 
-![](/assets/NRTRollout.PNG)
+![](/assets/NRTRollout.PNG)   
 
-```
-                                                                                          **Figure 9 NRT rollout page**
-```
+                                                                                              **Figure 9 NRT rollout page**
 
 By double clicking on the rows in the "Faults over time in swimlane" table, you can see the fault details
 
@@ -126,11 +122,9 @@ Fault details for NRT
 
     * Here the are components that is affected by the signature
 
-![](/assets/signatures.png)
+![](/assets/signatures.png) 
 
-```
-                                                                                               **Figure 10  Signature**
-```
+                                                                                     **Figure 10  Signature Details**
 
 ## Cluster Utilization During Rollout {#cluster-utilization-during-rollout}
 
